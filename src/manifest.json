@@ -1,0 +1,10 @@
+{
+	"id": "auto-template",
+	"name": "Auto Template",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "ノートの新規作成時に自動でテンプレートを適用する",
+	"author": "Ryota Iso",
+	"authorUrl": "https://github.com/ryota-iso",
+	"isDesktopOnly": false
+}
