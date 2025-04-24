@@ -1,0 +1,41 @@
+/* 設定画面 */
+.auto-template-settings .setting-item {
+  padding: 12px 0;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.auto-template-settings .setting-item:first-child {
+  border-top: none;
+}
+
+.auto-template-settings .dropdown {
+  width: 100%;
+}
+
+/* 通知 */
+.auto-template-notice {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  background-color: var(--background-modifier-success);
+  color: var(--text-normal);
+}
+
+/* 確認モーダル */
+.auto-template-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.modal-content p {
+  margin-bottom: 16px;
+}
