@@ -1,7 +1,7 @@
-# Untitled File Remover
+# Auto Template
 
-「**無題のファイル**」を、自動削除削除する Obsidian プラグインです。
-ファイルの開閉時及び、ペインが切り替わったタイミングで自動削除が実行されます。
+新規に作成した Markdown ノートへ、選択したテンプレートを自動挿入する Obsidian プラグインです。
+コア「テンプレート」のフォルダ内からテンプレートを指定し、{{date:YYYY-MM-DD}} などの日付変数を展開して適用します。
 
 ### Building the plugin
 
