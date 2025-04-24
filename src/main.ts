@@ -17,7 +17,7 @@ interface AutoTemplateSettings {
 
 const DEFAULT_SETTINGS: AutoTemplateSettings = {
   templatePath: "",
-  enabled: true,
+  enabled: false,
 };
 
 export default class AutoTemplatePlugin extends Plugin {
