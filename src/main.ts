@@ -213,15 +213,6 @@ export default class AutoTemplatePlugin extends Plugin {
       return templateSettings.folder;
     }
 
-    // コミュニティプラグインのTemplater対応
-    // @ts-ignore - コミュニティプラグインにアクセス
-    const templaterPlugin = this.app.plugins.plugins["templater-obsidian"];
-    if (templaterPlugin) {
-      // @ts-ignore - Templaterプラグインの設定にアクセス
-      const templaterSettings = templaterPlugin.settings;
-      return templaterSettings.template_folder;
-    }
-
     return null;
   }
 
